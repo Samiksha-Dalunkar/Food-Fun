@@ -1,0 +1,77 @@
+const menu = [
+  {
+    id: 1,
+    title: 'Margherita Pizza',
+    category: 'Pizza',
+    price: 149,
+  
+    img: 'images/item-11.jpeg',
+    desc: `Classic pizza topped with tomato sauce, fresh mozzarella cheese, and basil leaves. `,
+  },
+  {
+    id: 2,
+    title: 'BBQ Bacon Burger',
+    category: 'Burger',
+    price: 199,
+    img: 'images/item-12.jpeg',
+    desc: `Grilled beef patty topped with crispy bacon, cheddar cheese, BBQ sauce, lettuce, and tomato on a brioche bun. `,
+  },
+  {
+    id: 3,
+    title: 'Classic French Fries',
+    category: 'Fries',
+    price: 99,
+    img: 'images/item-13.jpeg',
+    desc: `Crispy golden fries lightly seasoned with salt. `,
+  },
+  {
+    id: 4,
+    title: 'Pepperoni Pizza',
+    category: 'Pizza',
+    price: 299,
+    img: 'images/item-14.jpeg',
+    desc: `Traditional pizza topped with spicy pepperoni slices and mozzarella cheese. `,
+  },
+  {
+    id: 5,
+    title: 'Classic Cheeseburger',
+    category: 'Burger',
+    price: 179,
+    img: 'images/item-15.jpeg',
+    desc: `Juicy beef patty topped with American cheese, lettuce, tomato, onion, pickles, and special sauce on a sesame seed bun. `,
+  },
+  {
+    id: 6,
+    title: 'Garlic Parmesan Fries',
+    category: 'Fries',
+    price: 129,
+    img: 'images/item-16.jpeg',
+    desc: `French fries tossed in garlic butter and grated Parmesan cheese, served with a side of ranch dressing. `,
+  },
+  {
+    id: 7,
+    title: 'Vegetarian Supreme Pizza',
+    category: 'Pizza',
+    price: 199,
+    img: 'images/item-17.jpeg',
+    desc: `Loaded with assorted vegetables like bell peppers, onions, olives, mushrooms, and mozzarella cheese. `,
+  },
+  {
+    id: 8,
+    title: 'Mushroom Swiss Burger',
+    category: 'Burger',
+    price: 159,
+    img: 'images/item-18.jpeg',
+    desc: ` Beef patty topped with sautéed mushrooms, Swiss cheese, lettuce, tomato, and mayonnaise on a pretzel bun.`,
+  },
+  {
+    id: 9,
+    title: 'Loaded Chili Cheese Fries',
+    category: 'Fries',
+    price: 179,
+    img: 'images/item-19.jpeg',
+    desc: ` French fries topped with homemade chili, melted cheddar cheese, diced onions, and jalapeños.`,
+  },
+
+];
+export default menu;

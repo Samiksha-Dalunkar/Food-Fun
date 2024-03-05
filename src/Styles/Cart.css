@@ -1,0 +1,113 @@
+.cart-container{
+    position: relative;
+    top: 90px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+   .cart-item{
+    padding: 5px;
+    border-radius: 20px;
+}
+.item-details h5{
+    font-size: 1.2rem;
+}
+.item-details {
+    font-size: 1rem;
+    color:black;
+    background-color: #fff;
+    width: 400px; 
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px rgb(46, 45, 45);
+    row-gap: 80px; 
+    gap: 20px; 
+ 
+}
+
+.item-details img{
+    border-radius: 15px;
+    padding: 10px;
+    width: 400px;
+    height: 270px;
+    border-radius: 20px;
+}
+.proceed-button {
+    background-color: #74234E;
+    padding: 5px 10px;
+    width: fit-content;
+    
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #74234E;
+   
+    margin-top: 100px;
+    margin-left: 650px; 
+  
+}
+
+.item-details h3,
+.item-details p {
+    padding: 10px;
+}
+
+.cart-item button {
+    background-color: #ebd7eb;
+    color: black;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cart-item button span {
+    color: black;
+    background-color: whitesmoke;
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+.Rose{
+font-size: 25px;
+margin: 20px;
+}
+.empty-cart img{
+    margin: 100px;
+    margin-left: 100px;
+    height: 300px;
+    width: 400px;
+}
+
+.dens h1{
+    margin-left: 200px;
+    margin-bottom: 40px;
+}
+.item-details:hover{
+    box-shadow: 10px 5px 18px rgb(161, 149, 149);
+    
+}
+
+
+/* Animation */
+.empty-cart {
+    animation: bounce 1s infinite; }
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}  

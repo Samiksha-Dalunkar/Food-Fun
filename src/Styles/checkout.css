@@ -1,0 +1,89 @@
+
+.dog{
+    height: 500px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    top:90px;
+    position: relative;
+  
+}
+.dog img{
+  width: 600px;
+  height: 500px;
+}
+.horn {
+    
+    width: 600px;
+    margin-top: 150px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:  #facc22;
+  }
+  
+  .horn h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .horn ul {
+    font-size: 30px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .horn ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .horn ul li span {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .horn ul li strong {
+    font-size: 18px;
+    color: brown;
+  }
+  
+  .Haze button{
+    background-color: #74234E;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 600px;
+    border: none;
+  }
+  .Haze button:hover{
+    border: 2px solid #74234E;
+    background-color: #f9f7f9;
+    color: black;
+  }
+  .Haze{
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+
+
+  /* Animation */
+  .dog img {
+    text-align: center;
+    animation: shake 0.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes shake {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-10px);
+    }
+  }
